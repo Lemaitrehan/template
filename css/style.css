@@ -1,0 +1,87 @@
+ul li{
+    list-style: none;
+}
+a {
+    color: #333333;
+}
+.top {
+    width: 100%;
+    height: 38px;
+    background: #efefef!important;
+    font-size: 12px;
+    line-height: 38px;
+    overflow: hidden;
+    padding: 0 50px;
+}
+.top a {
+    color: #666666;
+}
+.header {
+    width: 100%;
+    /*background: #f8f9fa;*/
+    overflow: hidden;
+}
+.header .header-main {
+    width: 1200px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.header .header-main .logo {
+    width: 185px;
+    float: left;
+}
+.header .header-main .sidebar {
+    float: right;
+    padding: 0 10px;
+}
+.header .header-main .sidebar a{
+    color: #333333;
+}
+
+.box {
+    width: 100%;
+    height: 60px;
+    background: #f8f9fa;
+}
+.box .my-nav {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    line-height: 60px;
+}
+.my-nav ul li {
+    float: left;
+    display: inline-block;
+    padding: 0 35px;
+}
+
+.banner {
+    position: relative;
+    overflow: auto;
+    width: 100%;
+    height: 415px;
+    background: url("../images/sunset.jpg");
+    background-size: cover;
+}
+.main {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.item-header {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #cccccc;
+    width: 100%;
+}
+
+.font12 {
+    font-size: 12px;
+}
